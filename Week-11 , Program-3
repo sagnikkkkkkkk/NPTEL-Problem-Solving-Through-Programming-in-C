@@ -23,19 +23,20 @@ Test Case 3:-         Input:-     0              Output:-    The integral is: 0.
 float func(float x);
 int main()
 {
-  int n=10; //Taking n=10 sub intervals
-  float a,b,integral; //integral is the integration result
-  scanf("%f",&a); // initial limit taken from test case 
-  scanf("%f",&b); // Final limit taken from test case
+  int n=10;                                                                                                 //Taking n=10 sub intervals
+  float a,b,integral;                                                                                      //integral is the integration result
+  scanf("%f",&a);                                                                                         // initial limit taken from test case 
+  scanf("%f",&b);                                                                                         // Final limit taken from test case
 
-//Use the printf statement as printf("The integral is: %0.6f\n",integral);
+                                                                                                        //Use the printf statement as printf("The integral is: %0.6f\n",integral);
 int i;
 float h,x, sum=0;  
 if(b>a)
   h=(b-a)/n;
   else
   h=-(b-a)/n;
-  for(i=1;i<n;i++){
+  for(i=1;i<n;i++)
+{
     x=a+i*h;
     sum=sum+func(x);
   }
