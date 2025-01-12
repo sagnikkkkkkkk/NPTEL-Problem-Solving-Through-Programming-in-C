@@ -1,0 +1,49 @@
+//  Week-11 , Program-3
+
+/*                                 b
+    write a C program to find     ∫ (x^2) dx      using trapezoidal rule with 10 segments between A and B the values of A and B will be taken from test case .
+                                 a
+
+
+Test Case 1:-        	Input:-     1              Output:-    The integral is: 8.680000
+                                  3
+
+Test Case 2:-        	Input:-    -2              Output:-    The integral is: 3.045000
+                                  1
+
+Test Case 3:-         Input:-     0              Output:-    The integral is: 0.335000
+                                  1
+
+*/
+
+
+
+
+#include<stdio.h>
+float func(float x);
+int main()
+{
+  int n=10; //Taking n=10 sub intervals
+  float a,b,integral; //integral is the integration result
+  scanf("%f",&a); // initial limit taken from test case 
+  scanf("%f",&b); // Final limit taken from test case
+
+//Use the printf statement as printf("The integral is: %0.6f\n",integral);
+int i;
+float h,x, sum=0;  
+if(b>a)
+  h=(b-a)/n;
+  else
+  h=-(b-a)/n;
+  for(i=1;i<n;i++){
+    x=a+i*h;
+    sum=sum+func(x);
+  }
+  integral=(h/2)*(func(a)+func(b)+2*sum);
+  printf("The integral is: %0.6f\n",integral);
+  return 0;
+}
+float func(float x)
+{
+  return x*x;
+}
