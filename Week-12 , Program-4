@@ -13,6 +13,7 @@ Test Case 1:-          Input:-      5          Expected Output:-     Sum of dist
 
 
 
+
 #include<stdio.h>
 
 struct Distance{
