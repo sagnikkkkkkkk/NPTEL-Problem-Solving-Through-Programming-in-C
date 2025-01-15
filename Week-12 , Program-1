@@ -10,13 +10,14 @@ Test Case 1:-              Input:-   15              Expected Output:-   The Fac
 
 
 
+
 #include <stdio.h>
 void findFact(int, long int*);
 int main()
 {
-        long int fact; //factorial of the number
+        long int fact; 								//factorial of the number
         int num1; 
-		scanf("%d",&num1); //The number is taken from test data
+		scanf("%d",&num1); 						//The number is taken from test data
 
          findFact(num1, &fact);
          printf("The Factorial of %d is: %ld\n",num1, fact);
