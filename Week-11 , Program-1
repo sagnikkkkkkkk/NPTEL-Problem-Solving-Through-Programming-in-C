@@ -4,6 +4,7 @@
 
 
 
+
 #include <stdio.h>
 #define MAX 100
 char *reverse(char[]);
@@ -11,9 +12,9 @@ char *reverse(char[]);
 int main()
 {
     char str[MAX], *rev;
-    //printf("Enter a String: ");
+                                                                //printf("Enter a String: ");
     scanf("%s", str);
-    rev = reverse(str); //You have to write this function
+    rev = reverse(str);                                         //You have to write this function
     printf("The reversed string is : %s\n", rev);
     return 0;
 }
