@@ -4,8 +4,9 @@
 The velocity of a car at different time instant is given as
 __________________________________________________
 |  Time (t)         |      10  15  18  22  30    |
++-------------------+----------------------------+
 |  Velocity (v(t))  |      22  26  35  48  68    |
---------------------------------------------------
++-------------------+----------------------------+
 
 A linear Lagrange interpolant is found using this data points . write a C program to find the velocity of the car at different time instants .
 */
