@@ -3,19 +3,22 @@
 //  Write a C program to check whether a given number (N) is a perfect number or not ?
 
 
+
+
+
 #include <stdio.h>
 int main()
 {
     int N; 
-    scanf("%d",&N);                 /* An integer number taken as input from test cases */
+    scanf("%d",&N);                                                 /* An integer number taken as input from test cases */
 
 
-/*Complete the program by writing the rest of the code in the space provided.
-
-Please copy and paste the printf statement given below wherever required
-printf("\n%d is a perfect number.",N);
-printf("\n%d is not a perfect number.",N);
-*/
+                                                                    /*Complete the program by writing the rest of the code in the space provided.
+                                                                    
+                                                                    Please copy and paste the printf statement given below wherever required
+                                                                    printf("\n%d is a perfect number.",N);
+                                                                    printf("\n%d is not a perfect number.",N);
+                                                                    */
 
 
 int i, sum=0;
