@@ -11,6 +11,7 @@ Test Case 1:-              Input:-   15              Expected Output:-   The Fac
 
 
 
+
 #include <stdio.h>
 void findFact(int, long int*);
 int main()
