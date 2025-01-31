@@ -1,5 +1,6 @@
 //  Week-12 , Program-2
 
+
 /*
 Write a C program to print the Record of the Student Merit wise. Here a structure variable is defined which contains student rollno, name and score.
 
@@ -19,6 +20,7 @@ Input:-       4                                      Expected Output:-      The 
               Sandip
               500                                                         
 */
+
 
 
 
